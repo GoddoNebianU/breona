@@ -31,14 +31,14 @@ class MainScreen(App):
     CSS = """
     """
 
-    title: str = "Breona Agent"
-    sub_title: str = "GoddoNebianU's Super AI Agent"
-    context: list[Message] = [Message("agent", "Hello"), Message("user", "你好")]
+    context: list[Message] = []
     input = query_one(Input)
     container = query_one("#chat_container", VerticalScroll)
 
     def __init__(self):
         super().__init__()
+        self.title: str = "Breona Agent"
+        self.sub_title: str = "GoddoNebianU's Super AI Agent"
 
     def on_mount(self):
         self.input.focus()
