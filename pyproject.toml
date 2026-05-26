@@ -11,8 +11,11 @@ dependencies = [
     "requests>=2.34.2",
     "textual>=8.2.7",
     "nonebot-adapter-onebot>=2.4.6",
-    "nonebot2[httpx]>=2.5.0",
     "pyjwt>=2.13.0",
+    "nonebot2[websockets]>=2.5.0",
+    "langchain-core>=1.4.0",
+    "rich>=15.0.0",
+    "httpx>=0.28.1",
 ]
 
 [dependency-groups]

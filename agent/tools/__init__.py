@@ -1,2 +1,1 @@
-from .get_weather import *
-from .internet_search import *
+from .internet_search import internet_search
