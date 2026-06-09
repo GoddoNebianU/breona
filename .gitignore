@@ -12,3 +12,7 @@ wheels/
 .env
 
 /keys
+
+*.png
+*.jpg
+*.jpeg
